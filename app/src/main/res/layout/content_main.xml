@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3E7C5"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="164dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="56dp"
+        android:width="160dp"
+        android:background="#4CAF50"
+        android:drawableTop="@drawable/ic_search_black_24dp"
+        android:padding="15dp"
+        android:text="Consultar"
+        android:textColor="#FBFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLancar" />
+
+    <Button
+        android:id="@+id/btnLancar"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="44dp"
+        android:width="160dp"
+        android:background="#4CAF50"
+        android:drawableTop="@drawable/ic_add_circle_black_24dp"
+        android:onClick="abrirTelaLancamento"
+        android:padding="15dp"
+        android:text="Lançar"
+        android:textColor="#FBFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_app01" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

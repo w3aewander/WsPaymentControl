@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Payment Control</string>
+    <string name="action_settings">Configurações</string>
+    <string name="txt_title_main_1">Payment Control</string>
+    <string name="btn_receitas_main_1">Receitas</string>
+    <string name="btn_despesas_main_1">Despesas</string>
+
+    <string-array name="tipo_lancamento">
+        <item>Entrada</item>
+        <item>Saída</item>
+    </string-array>
+
+    <string-array name="tipo_documento">
+        <item>Boleto</item>
+        <item>Água</item>
+        <item>Luz</item>
+        <item>Telefone</item>
+        <item>Internet</item>
+        <item>TV assinatura</item>
+        <item>Compra mensal</item>
+        <item>Farmácia</item>
+        <item>Outros</item>
+    </string-array>
+</resources>
